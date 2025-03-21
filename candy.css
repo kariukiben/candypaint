@@ -1,0 +1,47 @@
+/* Style the menu table */
+body{
+    background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #dddddd;
+    background-color: #f9f9f941;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Change heading colors */
+h1, h2 {
+    color: #e44d26; /* Example color */
+}
+
+/* Style links */
+a {
+    color: #007bff; /* Example color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    bottom: 0px;
+}
+footer {
+    background-color:  rgba(9, 5, 245, 0.425);
+    color: rgb(255, 255, 255); /* White text */
+    text-align: center;
+    padding: 20px;
+    position: fixed; /* Sticks to the bottom */
+    width: 100%;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+}
